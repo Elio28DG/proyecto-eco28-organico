@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, 
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ===== Heder ===== */
+
+header{
+    background-color: rgb(13, 51, 61);
+    color: white;
+
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-lista{
+    display: flex;
+    gap: 1rem;
+    }
+
+/* ====== h2 ===== */
+
+h2{
+    background-color: white(3, 32, 30);
+    color: black;
+
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center ;
+}
+
+.caja-fondo {
+    height: 60vh;
+    resize: both;
+    overflow: auto;
+    background-color: rgba(3, 32, 30);
+
+    background-image: url("../img/canasta-alimentos-orgánicos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.nav-lista a{
+    color: white;
+}
+
+/* ===== huevos de chacra index ===== */
+
+.tarjeta1{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 430px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== frutos rojos index ===== */
+
+.tarjeta2{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 330px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== verduras frescas index ===== */
+
+.tarjeta3{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeta4{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== huevos de chacra index ===== */
+
+.tarjeta5{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 330px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== frutos rojos index ===== */
+
+.tarjeta6{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 330px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== verduras frescas index ===== */
+
+.tarjeta7{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeta8{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 1 ===== */
+
+.tarjeta9{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 2 ===== */
+
+.tarjeta10{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 3 ===== */
+
+.tarjeta11{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 4 ===== */
+
+.tarjeta12{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 5 ===== */
+
+.tarjeta13{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== trabajador 6 ===== */
+
+.tarjeta14{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 400px;
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== pago 1 ===== */
+
+.tarjeta15{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== pago 2 ===== */
+
+.tarjeta16{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== pago 3===== */
+
+.tarjeta17{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    }
+    
+
+    /* ===== imagen 1 ===== */
+
+.tarjeta15{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== imagen 2 ===== */
+
+.tarjeta16{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ===== imagen 3===== */
+
+.tarjeta17{
+    border: 2px solid rgb(255, 72, 0);
+
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    }
+    
